@@ -13,12 +13,35 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('welcome.blade.php', function () {
+Route::get('welcome.blade.php', function() {
     return view('welcome');
 });
 
-Route::get('donate.blade.php', function () {
+Route::get('bearsandskunks.blade.php', function() {
+   return view('bearsandskunks');
+});
+
+Route::get('donate.blade.php', function() {
     return view('donate');
 });
+
+Route::get('resources.blade.php', function() {
+    return view('resources');
+});
+
+Route::get('about.blade.php', function() {
+    return view('about');
+});
+
+Route::get('varroa.blade.php', function() {
+    return view('varroa');
+});
+
+
+
+
+
+
+
 
 

@@ -23,7 +23,7 @@
 
         <li><a href="{{url('beeginner.blade.php')}}">Beeginners</a></li>
 
-        <li><a href="{{url('resources.blade.php')}}}">Resources</a></li>
+        <li><a href="{{url('resources.blade.php')}}">Resources</a></li>
         <?php
         if (isset($_SESSION["useruid"])) {
             echo "<li><a href='logout.php'>Sign Up</a></li>";
