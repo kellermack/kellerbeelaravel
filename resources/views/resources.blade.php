@@ -15,7 +15,7 @@
 <div>
     <h1>Click a picture to learn more!</h1>
     <section class="container">
-        <a href="{{url("varroa.blade.php")}}><img src={{asset('css/images/varroadestructormite.jpeg class')}}="image2"></a>
+        <a href="{{url("varroa.blade.php")}}><img src="{{asset('css/images/varroadestructormite.jpeg class')}}="image2"></a>
         <a href="hiveBeetle.php"><img src="Images/hiveBeetle.jpeg" class="image2"></a>
         <a href="foulBrood.php"><img src="Images/foulbrood.jpeg" class="image2"></a>
         <a href="statePrograms.html"><img src="Images/unitedStates.jpeg" class="image2"></a>

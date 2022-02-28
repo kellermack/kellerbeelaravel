@@ -12,30 +12,58 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::get('welcome.blade.php', function() {
-    return view('welcome');
+Route::get('about.blade.php', function() {
+    return view('about');
 });
 
 Route::get('bearsandskunks.blade.php', function() {
-   return view('bearsandskunks');
+    return view('bearsandskunks');
+});
+
+Route::get('beginner.blade.php', function() {
+    return view('beginner');
+});
+
+Route::get('comments.blade.php', function() {
+    return view('comments');
 });
 
 Route::get('donate.blade.php', function() {
     return view('donate');
 });
 
+Route::get('editcomment.blade.php', function() {
+    return view('editcomment');
+});
+
+Route::get('foulbrood.blade.php', function() {
+    return view('foulbrood');
+});
+
+Route::get('hivebeetle.blade.php', function() {
+    return view('hivebeetle');
+});
+
 Route::get('resources.blade.php', function() {
     return view('resources');
 });
 
-Route::get('about.blade.php', function() {
-    return view('about');
+Route::get('stateprograms.blade.php', function() {
+    return view('stateprograms');
 });
 
 Route::get('varroa.blade.php', function() {
     return view('varroa');
 });
+
+Route::get('waxmoths.blade.php', function() {
+    return view('waxmoth');
+});
+
+Route::get('welcome.blade.php', function() {
+    return view('welcome');
+});
+
 
 
 

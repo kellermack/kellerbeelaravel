@@ -31,7 +31,7 @@
 <body>
 
 
-<a href="welcome.blade.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+<a href="welcome.blade.php"><img src="{{asset('css/images/honeycomb.png')}}" alt="Bee hive" width="5%" height="5%"></a>
 <h3>Back to the Hive!!</h3>
 <h1>Donate!</h1>
 <p>Your donations help maintain this webpage as well as helping
@@ -43,7 +43,7 @@
         <input type="hidden" name="business" value="2VW9JMSFTDZF6" />
         <input type="hidden" name="currency_code" value="USD" />
         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" style="border: 0px none ; padding: 0px; width: 196px; height: 96px;" />
-        <img alt=""src="https://www.paypal.com/en_US/i/scr/pixel.gif"/>
+        <img alt= "" src="https://www.paypal.com/en_US/i/scr/pixel.gif"/>
     </form>
 </div>
 
