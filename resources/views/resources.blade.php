@@ -9,18 +9,18 @@
 <body>
 
 <div>
-    <a href="{{url("welcome.blade.php")}}"><img src="{{asset('css/images/honeycomb.png')}}" alt="Bee hive" class="image1"></a>
+    <a href="{{url("welcome.blade.php")}}"><img src="{{('css/images/honeycomb.png')}}" alt="Bee hive" class="image1"></a>
     <h4>Back to the Hive!!</h4>
 </div>
 <div>
     <h1>Click a picture to learn more!</h1>
     <section class="container">
-        <a href="{{url("varroa.blade.php")}}"><img src="{{asset('css/images/varroadestructormite.jpeg')}}" class="image2" alt="varroa"></a>
-        <a href="hiveBeetle.php"><img src="{{('/css/images/hiveBeetle.jpeg')}}" class="image2" alt="hivebeetle"></a>
-        <a href="foulBrood.php"><img src= "{{('/css/images/foulbrood.jpeg')}}" class="image2"></a>
-        <a href="statePrograms.html"><img src="Images/unitedStates.jpeg" class="image2"></a>
-        <a href="waxMoth.php"><img src="Images/waxMoth.jpeg" class="image2"></a>
-        <a href="bearsandskunks.php"><img src="Images/skunkBear.jpeg" class="image2"></a>
+        <a href="{{url("varroa.blade.php")}}"><img src="{{('css/images/varroadestructormite.jpeg')}}" class="image2" alt="varroa"></a>
+        <a href="{{url("hivebeetle.blade.php")}}"><img src="{{('/css/images/hiveBeetle.jpeg')}}" class="image2" alt="hivebeetle"></a>
+        <a href=>"{{url("foulbrood.blade.php")}}"<img src= "{{('/css/images/foulbrood.jpeg')}}" class="image2" alt="foulbrood"></a>
+        <a href="{{url("stateprograms.blade.php")}}"><img src="{{('/css/images/unitedStates.jpeg')}}" class="image2" alt="usmap"></a>
+        <a href="">{{url("waxmoth.blade.php")}}<img src="{{('/css/images/waxMoth.jpeg')}}" class="image2" alt="waxmoth"></a>
+        <a href="{{url("bearsandskunks.blade.php")}}"><img src="{{('/css/images/skunkBear.jpeg')}}" class="image2" alt="bears and skunks"></a>
     </section>
 </div>
 </body>

@@ -1,20 +1,20 @@
-<?php
+{{--<?php
 date_default_timezone_set('America/New_York');
 include 'database.php';
 include 'comments.php';
 session_start();
-?>
+?>--}}
 
     <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="beetle.css">
+    <link rel="stylesheet" href="{{ url('css/resources.css') }}">
     <title>The Varroa Mite </title>
 </head>
 <body>
-<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+<a href="{{url("welcome.blade.php")}}"><img src="{{('css/images/honeycomb.png')}}" alt="Bee hive" class="image1"></a>
 <h3>Back to the Hive!!</h3>
 <h1>Varroa Destructor <span>These things suck(literally)</span></h1>
 <p>
@@ -27,7 +27,7 @@ session_start();
     and Apivar. It has been noted that the varroa  can become resistent to some
     treatments if they are used contiounssly.
 </p>
-<img src="Images/BeeMite.jpeg" alt="varroa">
+<img src="{{('css/images/BeeMite.jpeg')}}" alt="varroa">
 <h2>How bad is my varroa count?</h2>
 <p>Their are a few methods to determine how bad the mite count is in your hive.
 <ul>
@@ -76,7 +76,7 @@ session_start();
 </p>
 
 </body>
-<?php
+{{--<?php
 echo "<form method ='POST' action='".setComments ($conn)."'>
             <input type='hidden' name='uid' value='Anonymous'>
             <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
@@ -85,6 +85,6 @@ echo "<form method ='POST' action='".setComments ($conn)."'>
           </form>";
 
 getComments($conn)
-?>
-<footer>&copy; Copyright 2021 kellerbee.com</footer>
+?>--}}
+<footer>&copy; Copyright 2022 kellerbee.com</footer>
 </html>
