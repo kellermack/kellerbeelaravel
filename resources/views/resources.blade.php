@@ -17,9 +17,9 @@
     <section class="container">
         <a href="{{url("varroa.blade.php")}}"><img src="{{('css/images/varroadestructormite.jpeg')}}" class="image2" alt="varroa"></a>
         <a href="{{url("hivebeetle.blade.php")}}"><img src="{{('/css/images/hiveBeetle.jpeg')}}" class="image2" alt="hivebeetle"></a>
-        <a href=>"{{url("foulbrood.blade.php")}}"<img src= "{{('/css/images/foulbrood.jpeg')}}" class="image2" alt="foulbrood"></a>
+        <a href="{{url("foulbrood.blade.php")}}"><img src= "{{('/css/images/foulbrood.jpeg')}}" class="image2" alt="foulbrood"></a>
         <a href="{{url("stateprograms.blade.php")}}"><img src="{{('/css/images/unitedStates.jpeg')}}" class="image2" alt="usmap"></a>
-        <a href="">{{url("waxmoth.blade.php")}}<img src="{{('/css/images/waxMoth.jpeg')}}" class="image2" alt="waxmoth"></a>
+        <a href="{{url("waxmoth.blade.php")}}"><img src="{{('/css/images/waxMoth.jpeg')}}" class="image2" alt="waxmoth"></a>
         <a href="{{url("bearsandskunks.blade.php")}}"><img src="{{('/css/images/skunkBear.jpeg')}}" class="image2" alt="bears and skunks"></a>
     </section>
 </div>
