@@ -1,10 +1,10 @@
-<?php
+{{--<?php
 date_default_timezone_set('America/New_York');
 include 'database.php';
 include 'comments.php';
 session_start();
 
-?>
+?>--}}
 
 
     <!DOCTYPE html>
@@ -13,11 +13,11 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="beetle.css">
+    <link rel="stylesheet" href="{{ url('css/resources.css') }}">
 
 </head>
-<body>
-<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+<body id="beetle">
+<a href="{{url("welcome.blade.php")}}"><img src="{{('css/images/honeycomb.png')}}" alt="Bee hive" width="5%" height="5%"></a>
 <h3>Back to the Hive!!</h3>
 
 
@@ -32,7 +32,7 @@ session_start();
         have to keep these things out.
     </p>
     <br>
-    <img src="Images/beetle.jpeg" alt="Hive Beetle">
+    <img src="{{('/css/images/beetle.jpeg')}}" alt="Hive Beetle">
     <h2>What is a hive beetle?</h2>
     <p>
         The small hive beetle (Aethina Tumida) is a beekeeping pest.It is endemic to
@@ -82,7 +82,7 @@ session_start();
 
 <br>
 
-<?php
+{{--<?php
 echo "<form method ='POST' action='".setComments ($conn)."'>
             <input type='hidden' name='uid' value='Anonymous'>
             <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
@@ -91,7 +91,7 @@ echo "<form method ='POST' action='".setComments ($conn)."'>
           </form>";
 
 getComments($conn)
-?>
+?>--}}
 </body>
-<footer>&copy; Copyright 2021 kellerbee.com</footer>
+<footer>&copy; Copyright 2022 kellerbee.com</footer>
 </html>

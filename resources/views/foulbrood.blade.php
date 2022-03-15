@@ -14,8 +14,8 @@ session_start();
     <title>FoulBrood</title>
     <link rel="stylesheet" href="{{ url('css/resources.css') }}">
 </head>
-<body>
-<div class="foulbrood">
+<body id="foul">
+<div>
 <a href="{{url("welcome.blade.php")}}"><img src="{{('css/images/honeycomb.png')}}" alt="Bee hive" class="image1"></a>
 <h1>Something Smells Foul</h1>
 <p>FoulBrood, 4 different diseases that directly attack brood chambers of bee hives.

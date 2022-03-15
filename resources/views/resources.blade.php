@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="{{ url('css/resources.css') }}">
 </head>
-<body>
+<body id="stuff">
 
 <div>
     <a href="{{url("welcome.blade.php")}}"><img src="{{('css/images/honeycomb.png')}}" alt="Bee hive" class="image1"></a>

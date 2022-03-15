@@ -1,4 +1,4 @@
-body{
+#stuff{
     background-color: bisque;
 }
 
@@ -23,19 +23,18 @@ body{
     width: 550px;
     border-radius: 75%;
 }
-
-body.foulbrood{
+#foul{
     background: linear-gradient(90deg, rgba(0,18,36,1) 0%, rgba(93,95,99,1) 58%,
     rgba(83,97,118,1) 69%, rgba(56,103,171,1) 100%);
     color: seashell;
     font-size: 27px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table, th, td {
     border: 1px solid black;
-}
-
-.center {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -58,6 +57,14 @@ button.foulbrood{
     font-weight: 400;
     margin-bottom: 50px;
 }
+
+#beetle{
+    background: linear-gradient(90deg, rgba(0,18,36,1) 0%, rgba(93,95,99,1) 58%,
+    rgba(83,97,118,1) 69%, rgba(56,103,171,1) 100%);
+    color: seashell;
+    font-size: 27px;
+}
+
 
 .comment-box{
     width: 815px;
