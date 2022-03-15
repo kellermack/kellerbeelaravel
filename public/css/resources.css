@@ -65,6 +65,44 @@ button.foulbrood{
     font-size: 27px;
 }
 
+#varroa{
+    background: linear-gradient(90deg, rgba(0,18,36,1) 0%, rgba(93,95,99,1) 58%,
+    rgba(83,97,118,1) 69%, rgba(56,103,171,1) 100%);
+    color: seashell;
+    font-size: 27px;
+}
+
+#state{
+    background-color: slategray;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+    font-size: 2em;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#statePrograms {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .comment-box{
     width: 815px;

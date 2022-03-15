@@ -13,7 +13,7 @@ session_start();
     <link rel="stylesheet" href="{{ url('css/resources.css') }}">
     <title>The Varroa Mite </title>
 </head>
-<body>
+<body id="varroa">
 <a href="{{url("welcome.blade.php")}}"><img src="{{('css/images/honeycomb.png')}}" alt="Bee hive" class="image1"></a>
 <h3>Back to the Hive!!</h3>
 <h1>Varroa Destructor <span>These things suck(literally)</span></h1>
