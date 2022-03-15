@@ -18,14 +18,14 @@ session_start();
 <h3>Back to the Hive!!</h3>
 <h1>Varroa Destructor <span>These things suck(literally)</span></h1>
 <p>
-    The Varroa Destructor, or Varroa Mite is single handly the reason for most
+    The Varroa Destructor, or Varroa Mite is single biggest reason for most
     bee hive failures. A small mite(or tick) that feeds on honeybees and honeybee
     larvae. Left unchecked they will decimate even the strongest of hives. Every year
     nearly all beekeepers must treat the hives for varroa. Some do a spring and then fall
     treatment, I myself have been able to do only a once a year treatment and so far that
     has worked. I alternate every year with my treatments between Mite Away Quick Strips
-    and Apivar. It has been noted that the varroa  can become resistent to some
-    treatments if they are used contiounssly.
+    and Apivar. It has been noted that the varroa  can become resistant to some
+    treatments if they are used continuously.
 </p>
 <img src="{{('css/images/BeeMite.jpeg')}}" alt="varroa">
 <h2>How bad is my varroa count?</h2>
@@ -45,13 +45,13 @@ session_start();
     <li>The Sugar Shake Shake Senora
         <p>
             I have used this method a few times, it's not as affective for the count
-            but the upside is it doesnt kill the bees. Similar set up as the alcohol
+            but the upside is it doesn't kill the bees. Similar set up as the alcohol
             wash, 1/2 cup of bees, jar (with a lid with small holes) to dump them in and instead of alcohol you use
             powdered sugar. Shake the bees toward the jar lid so the mites will fall out of
             the jar but the bees stay in. Do this for a minute or so, then dump the bees back
-            in the hive, dont worry about the sugar as the other bees will help them clean it off.
+            in the hive, don't worry about the sugar as the other bees will help them clean it off.
             Go back to where you shook out the sugar and look for tiny dark specks, those are the mites.
-            Count and then divide by 100. If you have more then 3-5 while counting it is time
+            Count and then divide by 100. If you have more than 3-5 while counting it is time
             to treat.
     </li>
 </ul>

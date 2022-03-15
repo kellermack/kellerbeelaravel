@@ -56,7 +56,7 @@ Route::get('varroa.blade.php', function() {
     return view('varroa');
 });
 
-Route::get('waxmoths.blade.php', function() {
+Route::get('waxmoth.blade.php', function() {
     return view('waxmoth');
 });
 

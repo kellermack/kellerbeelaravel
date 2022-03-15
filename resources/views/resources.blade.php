@@ -24,6 +24,6 @@
     </section>
 </div>
 </body>
-<footer>&copy; Copyright 2022 kellerbee.com</footer>
+<footer>&copy; Copyright 2022 Kellerbee.com</footer>
 </html>
 

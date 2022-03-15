@@ -17,19 +17,19 @@
         <th>State</th>
     </tr>
     <tr>
-        <td><a href="http://www.alabamabeekeepers.com/">Alabama</a></td>
+        <td><a href="https://www.alabamabeekeepers.com/">Alabama</a></td>
     </tr>
     <tr>
-        <td><a href="http://sababeekeepers.com/">Alaska</a></td>
+        <td><a href="https://sababeekeepers.com/">Alaska</a></td>
     </tr>
     <tr>
         <td><a href="https://www.azbeekeepers.org/about.html">Arizona</a></td>
     </tr>
     <tr>
-        <td><a href="http://arbeekeepers.org/">Arkansas</a></td>
+        <td><a href="https://arbeekeepers.org/">Arkansas</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.californiastatebeekeepers.com/">California</a></td>
+        <td><a href="https://www.californiastatebeekeepers.com/">California</a></td>
     </tr>
     <tr>
         <td><a href="https://coloradobeekeepers.org/">Colorado</a></td>
@@ -38,19 +38,19 @@
         <td><a href="https://www.ctbees.org/">Connecticut</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.delawarebeekeepers.com/">Deleware</a></td>
+        <td><a href="https://www.delawarebeekeepers.com/">Deleware</a></td>
     </tr>
     <tr>
         <td><a href="https://www.flstatebeekeepers.com/">Florida</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.gabeekeeping.com/">Georgia</a></td>
+        <td><a href="https://www.gabeekeeping.com/">Georgia</a></td>
     </tr>
     <tr>
         <td><a href="https://www.hawaiibeekeepers.org/">Hawaii</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.idahohoney.org/">Idaho</a></td>
+        <td><a href="https://www.idahohoney.org/">Idaho</a></td>
     </tr>
     <tr>
         <td><a href="https://www.ilsba.com/">Illinois</a></td>
@@ -62,7 +62,7 @@
         <td><a href="https://www.abfnet.org/page/iowa?">Iowa</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.kansashoneyproducers.org/">Kansas</a></td>
+        <td><a href="https://www.kansashoneyproducers.org/">Kansas</a></td>
     </tr>
     <tr>
         <td><a href="https://kybees.org/">Kentucky</a></td>
@@ -83,19 +83,19 @@
         <td><a href="https://www.michiganbees.org/">Michigan</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.minnesotahoneyproducers.org/">Minnesota</a></td>
+        <td><a href="https://www.minnesotahoneyproducers.org/">Minnesota</a></td>
     </tr>
     <tr>
         <td><a href="https://mshoneybee.org/">Mississippi</a></td>
     </tr>
     <tr>
-        <td><a href="http://mostatebeekeepers.org/">Missouri</a></td>
+        <td><a href="https://mostatebeekeepers.org/">Missouri</a></td>
     </tr>
     <tr>
         <td><a href="https://nebraskabeekeepers.org/">Nebraska</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.northernnevadabeekeepersassociation.org/">Nevada</a></td>
+        <td><a href="https://www.northernnevadabeekeepersassociation.org/">Nevada</a></td>
     </tr>
     <tr>
         <td><a href="https://nhbeekeepers.org/">New Hampshire</a></td>
@@ -116,19 +116,19 @@
         <td><a href="https://www.facebook.com/NDBeeAssociation/">North Dakota</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.ohiostatebeekeepers.org/">Ohio</a></td>
+        <td><a href="https://www.ohiostatebeekeepers.org/">Ohio</a></td>
     </tr>
     <tr>
-        <td><a href="http://okbees.org/">Oklahoma</a></td>
+        <td><a href="https://okbees.org/">Oklahoma</a></td>
     </tr>
     <tr>
-        <td><a href="http://orsba.org/">Oregon</a></td>
+        <td><a href="https://orsba.org/">Oregon</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.pastatebeekeepers.org/">Pennsylvania</a></td>
+        <td><a href="https://www.pastatebeekeepers.org/">Pennsylvania</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.prbees.com/">Puerto Rico</a></td>
+        <td><a href="https://www.prbees.com/">Puerto Rico</a></td>
     </tr>
     <tr>
         <td><a href="https://ribeekeeper.org/">Rhode Island</a></td>
@@ -155,10 +155,10 @@
         <td><a href="https://www.virginiabeekeepers.org/">Virginia</a></td>
     </tr>
     <tr>
-        <td><a href="http://wasba.org/">Washington</a></td>
+        <td><a href="https://wasba.org/">Washington</a></td>
     </tr>
     <tr>
-        <td><a href="http://www.wvbeekeepers.org/">West Virginia</a></td>
+        <td><a href="https://www.wvbeekeepers.org/">West Virginia</a></td>
     </tr>
     <tr>
         <td><a href="https://www.wihoney.org/">Wisconsin</a></td>
