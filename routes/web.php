@@ -20,8 +20,8 @@ Route::get('bearsandskunks.blade.php', function() {
     return view('bearsandskunks');
 });
 
-Route::get('beginner.blade.php', function() {
-    return view('beginner');
+Route::get('beeginner.blade.php', function() {
+    return view('beeginner');
 });
 
 Route::get('comments.blade.php', function() {

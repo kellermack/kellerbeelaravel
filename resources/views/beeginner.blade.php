@@ -1,8 +1,8 @@
-<?php
+{{--<?php
 date_default_timezone_set('America/New_York');
 include 'database.php';
 include 'comments.php';
-?>
+?>--}}
 
 
     <!DOCTYPE html>
@@ -11,12 +11,12 @@ include 'comments.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>beeginners</title>
-    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="{{ url('css/resources.css') }}">
 </head>
 <body>
-<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+<a href="{{url("welcome.blade.php")}}"><img src="{{('css/images/honeycomb.png')}}" alt="Bee hive" width="5%" height="5%"></a>
 <h3>Back to the Hive!!</h3>
-<h1>This is for the newbees</h1>
+<h1>This is for the newbies</h1>
 <p>My first (and only) bee class I took was a once a week class
     that lasted 6 weeks. It was 2 hours every Tuesday Night at the
     local community college. Some of what we were taught was great, some
@@ -26,7 +26,7 @@ include 'comments.php';
 </p>
 <ul>
     <li>You are going to be stung</li>
-    <p>This is going to happen, so if you cant stand the thought
+    <p>This is going to happen, so if you can't stand the thought
         of being stung then beekeeping is not for you. No suit will protect you.
         Bee suits are sting resistant not sting proof. So be prepared!
     </p>
@@ -41,25 +41,26 @@ include 'comments.php';
     <p>Before you even buy your bees start studying. Read up
         on different types of honey bees. What drone brood looks like,
         what nurse bees look like, how guard bees act. Make sure you know
-        what capped brood looks like, what capped honey look likes. Be
-        able to identify what any and all pests an disease look like. It is
-        a lot to take in at first but with persistance you won't be surprised
+        what capped brood looks like, what capped honey looks like. Be
+        able to identify what any and all pests a disease look like. It is
+        a lot to take in at first but with persistence you won't be surprised
         by anything.
     </p>
     <li>Be Prepared for Loss</li>
     <p>You will lose bees, it happens. I lost one of my new hives within
         3 days of getting them. Swarms will happen, disease will happen and
-        sometimes your queen will be bad and you will catch it too late. </p>
+        sometimes your queen will be bad, and you will catch it too late. </p>
 </ul>
 
 </body>
-<?php
+{{--<?php
 echo "<form method ='POST' action='".setComments ($conn)."'>
 <input type='hidden' name='uid' value='Anonymous'>
 <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
 <textarea name='message'></textarea><br>
 <button type='submit' name='commentSubmit'>Comment</button>
 </form>";
-?>
-<footer>&copy; Copyright 2021 kellerbee.com</footer>
+?>--}}
+
+<footer>&copy; Copyright 2022 kellerbee.com</footer>
 </html>
