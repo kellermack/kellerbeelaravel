@@ -1,9 +1,9 @@
-<?php
+{{--<?php
 date_default_timezone_set('America/New_York');
 include 'database.php';
 include 'comments.php';
 session_start();
-?>
+?>--}}
 
 
 
@@ -14,17 +14,17 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bears & Skunks</title>
-    <link rel="stylesheet" href="bearsandskunks.css">
+    <link rel="stylesheet" href="{{ url('css/resources.css') }}">
 </head>
-<body>
-<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+<body id="bearsandskunks">
+<a href="{{url("welcome.blade.php")}}"><img src="{{('css/images/honeycomb.png')}}" alt="Bee hive" width="5%" height="5%"></a>
 <h3>Back to the Hive!!</h3>
 <h1>Bears and....Skunks?!</h1>
 
 <h2>Bears</h2>
-<p>It is no secret that bears are attracted to beehives. But many believe its the smell of honey
+<p>It is no secret that bears are attracted to beehives. But many believe it's the smell of honey
     that attracts bears however in truth bears are really after the bees and larvae inside the hive.
-    The bees, larvae and eggs inside of a hive are a high protein source for hungry bears. Now that
+    The bees, larvae and eggs inside a hive are a high protein source for hungry bears. Now that
     being said bears do enjoy honey just not as much as Yogi made it out to be.
 </p>
 <h2>How to stop bears</h2>
@@ -44,7 +44,7 @@ session_start();
     a skunk is the stomach, and if your bee hive isn't high enough off the ground the skunk doesnt
     have to stand and the bees can never reach that area.
 </p>
-<img src="Images/skunks.jpeg" alt="skunk">
+<img src="{{('css/images/skunks.jpeg')}}" alt="skunk">
 <h2>How to stop a skunk</h2>
 <p>Skunks can be halted by fences, just like bears an electric one would work better but it
     has been observed that skunks can burrow underneath the fences to get to the hive. So
@@ -53,9 +53,9 @@ session_start();
     will use carpet strips with tacks to deter the skunk. If they are put on the front of the hive
     with tacks facing out the skunk will be poked and possibly give up the attempt at hurting the hive.
 </p>
-<img src="Images/bearAttack.jpg" alt="bear">
+<img src="{{('css/images/bearAttack.jpg')}}" alt="bear">
 </body>
-<?php
+{{--<?php
 echo "<form method ='POST' action='".setComments ($conn)."'>
 <input type='hidden' name='uid' value='Anonymous'>
 <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
@@ -63,7 +63,8 @@ echo "<form method ='POST' action='".setComments ($conn)."'>
 <button type='submit' name='commentSubmit'>Comment</button>
 </form>";
 getComments($conn);
-?>
-<footer>&copy; Copyright 2021 kellerbee.com</footer>
+?>--}}
+
+<footer>&copy; Copyright 2022 kellerbee.com</footer>
 
 </html>
