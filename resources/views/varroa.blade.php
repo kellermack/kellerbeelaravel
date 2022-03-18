@@ -39,7 +39,7 @@ session_start();
             around 2 minutes. The bees are then dumped on a wire mesh so that the mites
             fall through. The mites are then counted and divided by 3 to determine how many
             mites your hive has per 100 bees. MAKE 100% SURE YOU DO NOT HAVE THE QUEEN IN THE
-            SAMPLE!!!!!!
+            SAMPLE!!!!!! Or you will be buying a new queen
         </p>
     </li>
     <li>The Sugar Shake Shake Senora
